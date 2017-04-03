@@ -1,0 +1,24 @@
+#!/bin/sh
+
+./setup_dependencies.sh
+
+mkdir -p baxter_ws/src
+cd baxter_ws/src
+wstool init
+wstool merge ../../baxter_sdk_simulator_demos.rosinstall
+wstool update
+cd ..
+catkin_make
+cd ..
+
+mkdir -p tiago_ws/src
+cd tiago_ws/src
+wstool init
+wstool merge ../../tiago_public.rosinstall
+wstool update
+cd ..
+catkin_make
+catkin_make
+cd ..
+
+
