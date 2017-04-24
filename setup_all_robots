@@ -1,6 +1,6 @@
 #!/bin/sh
 
-./setup_dependencies.sh
+#./setup_dependencies.sh
 
 mkdir -p baxter_ws/src
 cd baxter_ws/src
