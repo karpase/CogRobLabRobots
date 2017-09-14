@@ -21,7 +21,7 @@
 - git:
     local-name: baxter_simulator
     uri: https://github.com/RethinkRobotics/baxter_simulator.git
-    version: master
+    version: kinetic-devel
 - git:
     local-name: baxter_pykdl
     uri: https://github.com/RethinkRobotics/baxter_pykdl.git
@@ -34,6 +34,10 @@
     local-name: baxter_demos
     uri: https://github.com/osrf/baxter_demos.git
     version: master
+- git:
+    local-name: moveit_robots
+    uri: https://github.com/ros-planning/moveit_robots.git
+    version: kinetic-devel
 
 
 
