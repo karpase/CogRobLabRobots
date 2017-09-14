@@ -1,7 +1,7 @@
 #!/bin/sh
 
-sudo apt-get install ros-indigo-moveit-robots ros-indigo-moveit ros-indigo-gazebo-ros-control ros-indigo-twist-mux ros-indigo-effort-controllers
+sudo apt-get install ros-kinetic-moveit ros-kinetic-gazebo-ros-control ros-kinetic-twist-mux ros-kinetic-effort-controllers
 
-sudo add-apt-repository --yes ppa:xqms/opencv-nonfree
-sudo apt-get update 
-sudo apt-get install libopencv-nonfree-dev
+#sudo add-apt-repository --yes ppa:xqms/opencv-nonfree
+#sudo apt-get update 
+#sudo apt-get install libopencv-nonfree-dev
